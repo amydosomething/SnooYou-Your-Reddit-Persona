@@ -62,5 +62,21 @@ Infers:
 ```bash
 git clone https://github.com/amydosomething/SnooYou-Your-Reddit-Persona.git
 cd SnooYou-Your-Reddit-Persona
+```
+
+## 🔑 Environment Variables
+
+Before running the project, create a `.env` file in the root directory and add the following variables:
+
+```env
+# Reddit API credentials
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_client_secret
+
+# Gemini API key
+GEMINI_API_KEY=your_gemini_api_key
+```
+```
 pip install -r requirements.txt
 streamlit run reddit_analyzer_streamlit.py
+```
